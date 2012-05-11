@@ -9,7 +9,7 @@ if ( ! function_exists('admin_notify_mailinglist_title'))
 	function admin_notify_mailinglist_title()
 	{
 return <<<EOF
-Someone has subscribed to your mailing list
+Iemand heeft zich ingeschreven op je mailing list
 EOF;
 	}
 }
@@ -19,9 +19,9 @@ if ( ! function_exists('admin_notify_mailinglist'))
 	function admin_notify_mailinglist()
 	{
 return <<<EOF
-A new mailing list subscription has been accepted.
+Een nieuwe mailing list inschrijving is geaccepteerd.
 
-Email Address: {email}
+E-mailadres: {email}
 Mailing List: {mailing_list}
 EOF;
 	}
@@ -38,7 +38,7 @@ if ( ! function_exists('admin_notify_entry_title'))
 	function admin_notify_entry_title()
 	{
 return <<<EOF
-A new channel entry has been posted
+Een nieuw channel bericht is geplaatst
 EOF;
 	}
 }
@@ -48,16 +48,16 @@ if ( ! function_exists('admin_notify_entry'))
 	function admin_notify_entry()
 	{
 return <<<EOF
-A new entry has been posted in the following channel:
+Een nieuw bericht is geplaatst in het channel:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht is:
 {entry_title}
 
-Posted by: {name}
+Geplaatst door: {name}
 Email: {email}
 
-To read the entry please visit: 
+Om het bericht te bekijken bezoek:
 {entry_url}
 
 EOF;
@@ -75,7 +75,7 @@ if ( ! function_exists('admin_notify_reg_title'))
 	function admin_notify_reg_title()
 	{
 return <<<EOF
-Notification of new member registration
+Berichtgeving van de registratie van een nieuwe gebruiker
 EOF;
 	}
 }
@@ -85,13 +85,13 @@ if ( ! function_exists('admin_notify_reg'))
 	function admin_notify_reg()
 	{
 return <<<EOF
-New member registration site: {site_name}
+Nieuwe gebruiker geregistreerd op: {site_name}
 
-Screen name: {name}
-User name: {username}
-Email: {email}
+Schermnaam: {name}
+Gebruikersnaam: {username}
+E-mailadres: {email}
 
-Your control panel URL: {control_panel_url}
+URL van het beheer: {control_panel_url}
 EOF;
 	}
 }
@@ -107,7 +107,7 @@ if ( ! function_exists('admin_notify_comment_title'))
 	function admin_notify_comment_title()
 	{
 return <<<EOF
-You have just received a comment
+Je hebt zojuist een reactie ontvangen
 EOF;
 	}
 }
@@ -117,19 +117,19 @@ if ( ! function_exists('admin_notify_comment'))
 	function admin_notify_comment()
 	{
 return <<<EOF
-You have just received a comment for the following channel:
+Je hebt zojuist een reactie ontvangen in channel:
 {channel_name}
 
-The title of the entry is:
+De titel van het bericht:
 {entry_title}
 
-Located at: 
+Bevindt zich op:
 {comment_url}
 
-Posted by: {name}
-Email: {email}
+Geplaatst door: {name}
+E-mail adres: {email}
 URL: {url}
-Location: {location}
+Locatie: {location}
 
 {comment}
 EOF;
