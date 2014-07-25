@@ -14,4 +14,4 @@ This repository has:
 ## How to contribute?
 You are free to check-out this repository and make changes. We would really appreciate if you contribute your additions to use with a pull request. 
 
-Any contributors planning on making regular changes can request to become an Translators teammember, which grants you push permissions. Contact us at t.witteveen@am-impact.nl.
+Any contributors planning on making regular changes can request to become an Translators teammember, which grants you push permissions. Contact us at info@am-impact.nl.
